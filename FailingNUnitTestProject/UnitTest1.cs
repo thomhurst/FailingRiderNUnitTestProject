@@ -15,7 +15,7 @@ public enum MyEnum
 [TestFixtureSource(nameof(GetAllMyEnums))]
 public abstract class BaseClass
 {
-    private static readonly IEnumerable<MyEnum> GetAllMyEnums = new[] { MyEnum.Enum1, MyEnum.Enum2, MyEnum.Enum3, MyEnum.Enum4};
+    public static readonly IEnumerable<MyEnum> GetAllMyEnums = new[] { MyEnum.Enum1, MyEnum.Enum2, MyEnum.Enum3, MyEnum.Enum4};
     private readonly MyEnum _myEnum;
 
     protected BaseClass(MyEnum myEnum)
