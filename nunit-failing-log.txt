@@ -1,0 +1,105 @@
+12:45:12.761 |I| Launch created for session 'MyTest' (ce238dee-2179-4251-979f-100145cbc94d)
+12:45:12.762 |T| Launch: 0d26eeef-94c5-498e-b81a-8c88dce3fa83 >> RunHostController.AfterLaunchStarted
+12:45:12.762 |T| Launch: 0d26eeef-94c5-498e-b81a-8c88dce3fa83 << RunHostController.AfterLaunchStarted
+12:45:12.762 |I| BuildStage started
+12:45:12.762 |I| Build policy: Automatic
+12:45:13.515 |I| 0 projects built
+12:45:13.515 |V| 
+12:45:13.516 |I| BuildStage completed
+12:45:13.516 |I| RefreshProjectPropertiesStage started
+12:45:13.516 |I| RefreshProjectPropertiesStage completed
+12:45:13.516 |I| DiscoveryStage started
+12:45:13.516 |I| Test exploration required for 0 projects
+12:45:13.516 |V| 
+12:45:13.516 |I| DiscoveryStage completed
+12:45:13.516 |I| BuildPipelineStage started
+12:45:13.517 |I| BuildPipelineStage completed
+12:45:13.517 |I| ApplyRulesStage started
+12:45:13.525 |V| Running elements from criterion: {TestAncestorCriterion: FailingNUnitTestProject.MyClass;F66DA0E2-354D-4937-90E6-E199E325D6FC;net6.0;NUnit3x}
+12:45:13.525 |I| Got 2 elements (1 explicit) to run
+12:45:13.525 |V| Marking 2 elements as Pending
+12:45:13.525 |V| Marking elements as Pending completed
+12:45:13.526 |V| Distributing 2 elements into runs
+12:45:13.527 |V| Distributing elements completed
+12:45:13.527 |I| Created 1 unit-test runs
+12:45:13.527 |I| ApplyRulesStage completed
+12:45:13.527 |I| RunTestsStage started
+12:45:13.527 |I| Running up to 1 unit-test runs in parallel
+12:45:13.527 |I| Run: 6ed593d8-277a-4cc8-955c-1f064997e20c - Starting
+12:45:13.528 |V|     Provider: NUnit 3x
+    Target Framework: net6.0
+    Strategy: NUnitTestRunnerRunStrategy
+    Runtime Environment: TestRunnerRuntimeEnvironment
+  Host: JetBrains.ReSharper.UnitTestFramework.Execution.TestRunner.DefaultTestRunnerHost
+  Project: FailingNUnitTestProject
+  TargetPlatform: X64
+  TargetFrameworkId: net6.0
+  RunAsTargetFrameworkId: net6.0
+  IsUnmanaged: False
+12:45:13.528 |T| Run: 6ed593d8-277a-4cc8-955c-1f064997e20c >> RunHostController.PrepareForRun
+12:45:13.528 |T| Run: 6ed593d8-277a-4cc8-955c-1f064997e20c << RunHostController.PrepareForRun
+12:45:13.537 |V| RunSettings: 
+<RunSettings><RunConfiguration><ResultsDirectory>C:\git\FailingNUnitTestProject\TestResults</ResultsDirectory><SolutionDirectory>C:\git\FailingNUnitTestProject</SolutionDirectory><TargetPlatform>X64</TargetPlatform></RunConfiguration><NUnit><PreFilter>True</PreFilter></NUnit></RunSettings>
+12:45:13.539 |V| [ProcessStartInfoPatchResult]
+  Original request: DirectRequest
+  Success: True
+  ErrorMessage: <Empty>
+  Original StartInfo: FileName = 'C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\netcoreapp3.0\ReSharperTestRunner.exe', Arguments = '  --runtimeConfig C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0\FailingNUnitTestProject.runtimeconfig.json --depsfile C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0\FailingNUnitTestProject.deps.json  --additional-deps C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\netcoreapp3.0\ReSharperTestRunner.deps.json --additionalprobingpath C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\netcoreapp3.0 C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\netcoreapp3.0\ReSharperTestRunner.dll --parentProcessId 16700 -p 54629 -r 7b76f1e0-bc29-49bd-a6e3-7f72bebb53c1', WorkDir = 'C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0'
+  Patched  StartInfo: FileName = 'C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\netcoreapp3.0\ReSharperTestRunner.exe', Arguments = '  --runtimeConfig C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0\FailingNUnitTestProject.runtimeconfig.json --depsfile C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0\FailingNUnitTestProject.deps.json  --additional-deps C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\netcoreapp3.0\ReSharperTestRunner.deps.json --additionalprobingpath C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\netcoreapp3.0 C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\netcoreapp3.0\ReSharperTestRunner.dll --parentProcessId 16700 -p 54629 -r 7b76f1e0-bc29-49bd-a6e3-7f72bebb53c1', WorkDir = 'C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0'
+
+12:45:13.539 |I| Starting process: C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\netcoreapp3.0\ReSharperTestRunner.exe   --runtimeConfig C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0\FailingNUnitTestProject.runtimeconfig.json --depsfile C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0\FailingNUnitTestProject.deps.json  --additional-deps C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\netcoreapp3.0\ReSharperTestRunner.deps.json --additionalprobingpath C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\netcoreapp3.0 C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\netcoreapp3.0\ReSharperTestRunner.dll --parentProcessId 16700 -p 54629 -r 7b76f1e0-bc29-49bd-a6e3-7f72bebb53c1
+12:45:13.583 |I| Started process with pid 33936
+12:45:14.692 |V| Registering message handlers from 'JetBrains.ReSharper.UnitTestFramework.Execution.TestRunner.DefaultTestRunnerHost'...
+12:45:14.697 |V| Registering message handlers from 'JetBrains.ReSharper.UnitTesting.MSTest.Provider.DotNetCore.Proprietary.MsTestTestRunnerOrchestrator'...
+12:45:14.698 |V| Registering message handlers from 'JetBrains.ReSharper.UnitTestProvider.nUnit.v30.NUnitTestRunnerOrchestrator'...
+12:45:14.698 |V| Registering message handlers from 'JetBrains.ReSharper.UnitTestProvider.nUnit.v26.NUnitTestRunnerOrchestrator'...
+12:45:14.698 |V| Registering message handlers from 'JetBrains.ReSharper.UnitTesting.VsTest.Provider.VsTestTestRunnerOrchestrator'...
+12:45:14.698 |V| Registering message handlers from 'JetBrains.ReSharper.UnitTestProvider.Xunit.DotNetCore.Proprietary.XUnitTestRunnerOrchestrator'...
+12:45:14.744 |V| TestRunner: TestAdapterLoadContextFactoryFactory Registered protocol entities: 9 scalars and 1 serializers 
+12:45:14.744 |I| TestRunner: ShadowCopyBehavior+NoShadowCopyBehavior Shadow-copy will be skipped as it is disabled 
+12:45:14.759 |V| TestRunner: DefaultTestAdapterLoadContextFactory Initializing test adapter load context: NoIsolation = True 
+12:45:14.759 |V| TestRunner: AssemblyLoader(Application) Added probing path 'C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0' 
+12:45:14.759 |V| TestRunner: AssemblyLoader(Application) Added resolver relative to 'C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0\FailingNUnitTestProject.dll' 
+12:45:14.760 |V| TestRunner: AssemblyLoader(Application) Added probing path 'C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\Adapters\NUnit3\netstandard2.0\lib' 
+12:45:14.760 |V| TestRunner: AssemblyLoader(Application) Added resolver relative to 'C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\Adapters\NUnit3\netstandard2.0\lib' 
+12:45:14.760 |V| TestRunner: AssemblyLoader(Application) Added probing path 'C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\Adapters\NUnit3\netstandard2.0' 
+12:45:14.774 |V| TestRunner: AssemblyLoader(Application) Added resolver relative to 'C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\Adapters\NUnit3\netstandard2.0\JetBrains.ReSharper.TestRunner.Adapters.NUnit3.dll' 
+12:45:14.774 |V| TestRunner: AssemblyLoader(Application) ReSharperTestRunner: Registered 'nunit.engine.api, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null' by path 'C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\Adapters\NUnit3\netstandard2.0\lib\nunit.engine.api.dll' 
+12:45:14.775 |V| TestRunner: AssemblyLoader(Application) ReSharperTestRunner: Registered 'nunit.engine.core, Version=3.11.1.0, Culture=neutral, PublicKeyToken=null' by path 'C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\Adapters\NUnit3\netstandard2.0\lib\nunit.engine.core.dll' 
+12:45:14.775 |V| TestRunner: AssemblyLoader(Application) ReSharperTestRunner: Registered 'nunit.engine, Version=3.11.1.0, Culture=neutral, PublicKeyToken=null' by path 'C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\Adapters\NUnit3\netstandard2.0\lib\nunit.engine.dll' 
+12:45:14.775 |V| TestRunner: TestAdapterLoadContextWrapper Initialized test executor: JetBrains.ReSharper.TestRunner.Adapters.NUnit3.NUnitRunner, JetBrains.ReSharper.TestRunner.Adapters.NUnit3, Version=2.6.2.42, Culture=neutral, PublicKeyToken=null 
+12:45:14.775 |I| TestRunner: NUnitRunner Execution started 
+12:45:14.819 |V| TestRunner: NUnitRunner Created Package(C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0\FailingNUnitTestProject.dll) with Settings:
+  ProcessModel = InProcess
+  DomainUsage = None
+  ShadowCopyFiles = False
+  TestParametersDictionary = JetBrains.ReSharper.TestRunner.Adapters.NUnit3.Tasks.TestParameters
+  SynchronousEvents = False
+  RandomSeed = 526166485
+  LOAD = FailingNUnitTestProject.MyClass
+  WorkDirectory = C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0
+ 
+12:45:14.864 |I| TestRunner: NUnitRunner Discovering tests from C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0\FailingNUnitTestProject.dll 
+12:45:14.977 |V| Run: 6ed593d8-277a-4cc8-955c-1f064997e20c - Discovery result processing started
+12:45:14.979 |V| Run: 6ed593d8-277a-4cc8-955c-1f064997e20c - Discovery result processing finished (+0 -1 ~1)
+12:45:14.988 |V| TestRunner: NUnitTestReporter Sending 1 discovered elements to server... 
+12:45:15.004 |I| TestRunner: NUnitExecutionFilterBuilder Execution filter: <filter><id>0-1000</id></filter> 
+12:45:15.035 |I| TestRunner: NUnitRunner Execution completed 
+12:45:15.036 |V| TestRunner: AssemblyLoader(Application) Removed probing path 'C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0' 
+12:45:15.036 |V| TestRunner: AssemblyLoader(Application) Removed resolver relative to 'C:\git\FailingNUnitTestProject\FailingNUnitTestProject\bin\Debug\net6.0\FailingNUnitTestProject.dll' 
+12:45:15.036 |V| TestRunner: AssemblyLoader(Application) Removed probing path 'C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\Adapters\NUnit3\netstandard2.0\lib' 
+12:45:15.036 |V| TestRunner: AssemblyLoader(Application) Removed resolver relative to 'C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\Adapters\NUnit3\netstandard2.0\lib' 
+12:45:15.036 |V| TestRunner: AssemblyLoader(Application) Removed probing path 'C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\Adapters\NUnit3\netstandard2.0' 
+12:45:15.037 |V| TestRunner: AssemblyLoader(Application) Removed resolver relative to 'C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\Adapters\NUnit3\netstandard2.0\JetBrains.ReSharper.TestRunner.Adapters.NUnit3.dll' 
+12:45:15.077 |I| Process C:\Users\tom.longhurst\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-0\213.6461.51\lib\ReSharperHost\TestRunner\netcoreapp3.0\ReSharperTestRunner.exe:33936 has exited with code (0)
+12:45:15.089 |T| Run: 6ed593d8-277a-4cc8-955c-1f064997e20c >> RunHostController.CleanupAfterRun
+12:45:15.089 |T| Run: 6ed593d8-277a-4cc8-955c-1f064997e20c << RunHostController.CleanupAfterRun
+12:45:15.089 |I| Run: 6ed593d8-277a-4cc8-955c-1f064997e20c - Finished
+12:45:15.089 |I| RunTestsStage completed
+12:45:15.090 |I| FinishLaunchStage started
+12:45:15.090 |I| Finishing launch
+12:45:15.090 |W| Element <FailingNUnitTestProject.MyClass> was left pending after its run completion.
+12:45:15.091 |I| Launch is finished
+12:45:15.091 |I| FinishLaunchStage completed
+12:45:15.091 |T| Launch: 0d26eeef-94c5-498e-b81a-8c88dce3fa83 >> RunHostController.BeforeLaunchFinished
+12:45:15.091 |T| Launch: 0d26eeef-94c5-498e-b81a-8c88dce3fa83 << RunHostController.BeforeLaunchFinished
